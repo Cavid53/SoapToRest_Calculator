@@ -12,3 +12,17 @@ C:\Users\Cavid\source\repos\TaskCalculator\Calculator\Calculator\obj\Debug\netco
 C:\Users\Cavid\source\repos\TaskCalculator\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.pdb
 C:\Users\Cavid\source\repos\TaskCalculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.dll
 C:\Users\Cavid\source\repos\TaskCalculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.pdb
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.deps.json
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.runtimeconfig.json
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.runtimeconfig.dev.json
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.dll
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\bin\Debug\netcoreapp2.2\Calculator.pdb
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.csprojAssemblyReference.cache
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.RazorAssemblyInfo.cache
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.RazorAssemblyInfo.cs
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.AssemblyInfoInputs.cache
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.AssemblyInfo.cs
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.RazorTargetAssemblyInfo.cache
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.dll
+C:\Users\Cavid\Desktop\New folder (2)\SoapToRest_Calculator\SoapToRest_Calculator\Calculator\Calculator\obj\Debug\netcoreapp2.2\Calculator.pdb

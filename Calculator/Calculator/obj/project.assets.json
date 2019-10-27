@@ -13381,11 +13381,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cavid\\source\\repos\\TaskCalculator\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\Cavid\\Desktop\\New folder (2)\\SoapToRest_Calculator\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\Cavid\\source\\repos\\TaskCalculator\\Calculator\\Calculator\\Calculator.csproj",
+      "projectPath": "C:\\Users\\Cavid\\Desktop\\New folder (2)\\SoapToRest_Calculator\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\Cavid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cavid\\source\\repos\\TaskCalculator\\Calculator\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\Cavid\\Desktop\\New folder (2)\\SoapToRest_Calculator\\SoapToRest_Calculator\\Calculator\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

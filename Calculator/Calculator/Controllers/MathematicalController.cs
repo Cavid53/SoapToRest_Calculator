@@ -75,12 +75,12 @@ namespace Calculator.Controllers
             try
             {
                 var data = JsonConvert.SerializeObject(number);
-                _logger.LogInformation(string.Format(Messages.Request, "Add", data));
+                _logger.LogInformation(string.Format(Messages.Request, "Subtract", data));
 
                 await _dbContext.Reports.AddAsync(new Report
                 {
                     MethodId = 2,
-                    VALUE = string.Format(Messages.Request, "Add", data)
+                    VALUE = string.Format(Messages.Request, "Subtract", data)
                 });
 
                 var response = await _calculatorSoap.SubtractAsync(number.FirstNum, number.SecondNum);
@@ -88,7 +88,7 @@ namespace Calculator.Controllers
                 await _dbContext.Reports.AddAsync(new Report
                 {
                     MethodId = 2,
-                    VALUE = string.Format(Messages.Response, "Add", response, data)
+                    VALUE = string.Format(Messages.Response, "Subtract", response, data)
                 });
 
 
@@ -113,12 +113,12 @@ namespace Calculator.Controllers
             try
             {
                 var data = JsonConvert.SerializeObject(number);
-                _logger.LogInformation(string.Format(Messages.Request, "Add", data));
+                _logger.LogInformation(string.Format(Messages.Request, "Multiply", data));
 
                 await _dbContext.Reports.AddAsync(new Report
                 {
                     MethodId = 3,
-                    VALUE = string.Format(Messages.Request, "Add", data)
+                    VALUE = string.Format(Messages.Request, "Multiply", data)
                 });
 
                 var response = await _calculatorSoap.MultiplyAsync(number.FirstNum, number.SecondNum);
@@ -126,7 +126,7 @@ namespace Calculator.Controllers
                 await _dbContext.Reports.AddAsync(new Report
                 {
                     MethodId = 3,
-                    VALUE = string.Format(Messages.Response, "Add", response, data)
+                    VALUE = string.Format(Messages.Response, "Multiply", response, data)
                 });
 
 
@@ -151,12 +151,12 @@ namespace Calculator.Controllers
             try
             {
                 var data = JsonConvert.SerializeObject(number);
-                _logger.LogInformation(string.Format(Messages.Request, "Add", data));
+                _logger.LogInformation(string.Format(Messages.Request, "Divide", data));
 
                 await _dbContext.Reports.AddAsync(new Report
                 {
                     MethodId = 1,
-                    VALUE = string.Format(Messages.Request, "Add", data)
+                    VALUE = string.Format(Messages.Request, "Divide", data)
                 });
 
                 var response = await _calculatorSoap.DivideAsync(number.FirstNum, number.SecondNum);
@@ -164,7 +164,7 @@ namespace Calculator.Controllers
                 await _dbContext.Reports.AddAsync(new Report
                 {
                     MethodId = 1,
-                    VALUE = string.Format(Messages.Response, "Add", response, data)
+                    VALUE = string.Format(Messages.Response, "Divide", response, data)
                 });
 
 
