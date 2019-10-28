@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cavid\\Desktop\\New folder (2)\\SoapToRest_Calculator\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\Cavid\\Desktop\\changeLogging\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cavid\\Desktop\\New folder (2)\\SoapToRest_Calculator\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\Cavid\\Desktop\\changeLogging\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cavid\\Desktop\\New folder (2)\\SoapToRest_Calculator\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\Cavid\\Desktop\\changeLogging\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\Cavid\\Desktop\\New folder (2)\\SoapToRest_Calculator\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\Cavid\\Desktop\\changeLogging\\SoapToRest_Calculator\\Calculator\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\Cavid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cavid\\Desktop\\New folder (2)\\SoapToRest_Calculator\\SoapToRest_Calculator\\Calculator\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\Cavid\\Desktop\\changeLogging\\SoapToRest_Calculator\\Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,6 +61,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[2.2.4, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.7, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             },
             "System.ServiceModel.Duplex": {
               "target": "Package",
