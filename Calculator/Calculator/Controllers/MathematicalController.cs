@@ -44,6 +44,8 @@ namespace Calculator.Controllers
                     MethodId = 1,
                     VALUE = string.Format(Messages.Request, "Add", data)
                 });
+                
+                 await _dbContext.SaveChangesAsync();
 
                 var response = await _calculatorSoap.AddAsync(number.FirstNum, number.SecondNum);
 
@@ -82,6 +84,8 @@ namespace Calculator.Controllers
                     MethodId = 2,
                     VALUE = string.Format(Messages.Request, "Subtract", data)
                 });
+                
+                 await _dbContext.SaveChangesAsync();
 
                 var response = await _calculatorSoap.SubtractAsync(number.FirstNum, number.SecondNum);
 
@@ -120,6 +124,8 @@ namespace Calculator.Controllers
                     MethodId = 3,
                     VALUE = string.Format(Messages.Request, "Multiply", data)
                 });
+                
+                 await _dbContext.SaveChangesAsync();
 
                 var response = await _calculatorSoap.MultiplyAsync(number.FirstNum, number.SecondNum);
 
@@ -158,6 +164,8 @@ namespace Calculator.Controllers
                     MethodId = 1,
                     VALUE = string.Format(Messages.Request, "Divide", data)
                 });
+                
+                 await _dbContext.SaveChangesAsync();
 
                 var response = await _calculatorSoap.DivideAsync(number.FirstNum, number.SecondNum);
 
