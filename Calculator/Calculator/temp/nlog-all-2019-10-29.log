@@ -1,0 +1,199 @@
+2019-10-29 00:02:12.4674||DEBUG|Calculator.Program|init main 
+2019-10-29 00:02:12.8675||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 00:02:13.1862|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 00:02:13.2829|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 98.5536ms 404  
+2019-10-29 00:02:21.9213|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/mathematical   
+2019-10-29 00:02:21.9302|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.7836ms 404  
+2019-10-29 00:03:10.6218|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/add  0 
+2019-10-29 00:03:10.6289|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:10.6812|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Add", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 00:03:11.0103|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-29 00:03:11.1132|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Add (Calculator) in 426.1724ms 
+2019-10-29 00:03:11.1132|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:11.1132|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 495.8357ms 415 application/problem+json; charset=utf-8 
+2019-10-29 00:03:40.3213|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/add text/plain 32 
+2019-10-29 00:03:40.3213|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:40.3213|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Add", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 00:03:40.3213|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-29 00:03:40.3291|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Add (Calculator) in 3.0057ms 
+2019-10-29 00:03:40.3291|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:40.3291|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.9586ms 415 application/problem+json; charset=utf-8 
+2019-10-29 00:03:42.3974|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/add text/plain 32 
+2019-10-29 00:03:42.3974|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:42.3974|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Add", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 00:03:42.3974|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-29 00:03:42.3974|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Add (Calculator) in 1.2694ms 
+2019-10-29 00:03:42.3974|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:42.3974|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.9239ms 415 application/problem+json; charset=utf-8 
+2019-10-29 00:03:43.5238|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/add text/plain 32 
+2019-10-29 00:03:43.5238|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:43.5238|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Add", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 00:03:43.5238|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-29 00:03:43.5238|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Add (Calculator) in 1.755ms 
+2019-10-29 00:03:43.5238|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:43.5238|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.6179ms 415 application/problem+json; charset=utf-8 
+2019-10-29 00:03:43.8887|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/add text/plain 32 
+2019-10-29 00:03:43.8920|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:43.8920|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Add", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 00:03:43.8920|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-29 00:03:43.8920|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Add (Calculator) in 2.511ms 
+2019-10-29 00:03:43.9088|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:43.9088|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.0248ms 415 application/problem+json; charset=utf-8 
+2019-10-29 00:03:49.2418|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/add application/json 32 
+2019-10-29 00:03:49.2418|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:49.2418|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Add", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 00:03:49.2810|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Calculator.Controllers.MathematicalController.Add (Calculator) - Validation state: Valid 
+2019-10-29 00:03:49.2946||INFO|Calculator.Controllers.MathematicalController|Requested to Add method by {"FirstNum":5,"SecondNum":4} parameters 
+2019-10-29 00:03:49.5703|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'CalculatorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-29 00:03:54.6868|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 00:03:54.7163|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 00:03:54.7377||INFO|Calculator.Controllers.MathematicalController|The control is succesfully 
+2019-10-29 00:03:54.7377|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Calculator.Controllers.MathematicalController.Add (Calculator), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5461.7844ms. 
+2019-10-29 00:03:54.7550|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Int32'. 
+2019-10-29 00:03:54.7550|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Add (Calculator) in 5515.5302ms 
+2019-10-29 00:03:54.7550|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 00:03:54.7683|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5526.5014ms 200 application/json; charset=utf-8 
+2019-10-29 00:04:08.3230|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 00:04:08.3230|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.4829ms 404  
+2019-10-29 00:08:15.0427||DEBUG|Calculator.Program|init main 
+2019-10-29 00:08:16.6660||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 00:08:17.3139|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 00:08:17.4163|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 102.7787ms 404  
+2019-10-29 00:21:47.4960||DEBUG|Calculator.Program|init main 
+2019-10-29 00:21:48.0152||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 00:21:48.3697|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 00:21:48.4626|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.1346ms 404  
+2019-10-29 00:22:06.5880|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/mathemadical   
+2019-10-29 00:22:06.5880|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.109ms 404  
+2019-10-29 00:22:23.2272|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/subtract application/json 32 
+2019-10-29 00:22:23.2272|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Subtract (Calculator)' 
+2019-10-29 00:22:23.2842|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Subtract", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Subtract(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 00:22:23.6995|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Calculator.Controllers.MathematicalController.Subtract (Calculator) - Validation state: Valid 
+2019-10-29 00:22:23.7138||INFO|Calculator.Controllers.MathematicalController|Requested to Subtract method by {"FirstNum":5,"SecondNum":4} parameters 
+2019-10-29 00:22:23.9667|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'CalculatorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-29 00:22:26.5879|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 00:22:26.6174|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 00:22:26.6407||INFO|Calculator.Controllers.MathematicalController|The control is succesfully 
+2019-10-29 00:22:26.6513|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Calculator.Controllers.MathematicalController.Subtract (Calculator), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2946.0486ms. 
+2019-10-29 00:22:26.6694|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Int32'. 
+2019-10-29 00:22:26.6933|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Subtract (Calculator) in 3403.5756ms 
+2019-10-29 00:22:26.6933|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Subtract (Calculator)' 
+2019-10-29 00:22:26.7036|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3476.4742ms 200 application/json; charset=utf-8 
+2019-10-29 00:22:36.3182|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 00:22:36.3182|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.2224ms 404  
+2019-10-29 00:24:53.9569||DEBUG|Calculator.Program|init main 
+2019-10-29 00:24:55.9205||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 00:24:56.6413|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 00:24:56.7440|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 103.1335ms 404  
+2019-10-29 00:35:52.6520||DEBUG|Calculator.Program|init main 
+2019-10-29 00:35:54.4711||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 00:35:55.2652|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 00:35:55.3668|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 102.1467ms 404  
+2019-10-29 00:36:11.0731|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/mathematical   
+2019-10-29 00:36:11.0731|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.3917ms 404  
+2019-10-29 00:38:09.2611||DEBUG|Calculator.Program|init main 
+2019-10-29 00:38:19.1323||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 00:38:19.9017|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 00:38:20.0119|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 111.2205ms 404  
+2019-10-29 11:31:36.5178||DEBUG|Calculator.Program|init main 
+2019-10-29 11:31:37.5773||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 11:31:38.1373|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 11:31:38.2661|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 130.6661ms 404  
+2019-10-29 11:31:47.1205|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/mathematical   
+2019-10-29 11:31:47.1205|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.7126ms 404  
+2019-10-29 11:32:37.4500|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/subtract application/json 32 
+2019-10-29 11:32:37.4566|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Subtract (Calculator)' 
+2019-10-29 11:32:37.5062|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Subtract", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Subtract(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 11:32:38.0332|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Calculator.Controllers.MathematicalController.Subtract (Calculator) - Validation state: Valid 
+2019-10-29 11:32:38.0509||INFO|Calculator.Controllers.MathematicalController|Requested to Subtract method by {"FirstNum":6,"SecondNum":4} parameters 
+2019-10-29 11:32:38.3366|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'CalculatorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-29 11:32:40.5404|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (34ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 11:32:40.5771|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 11:32:40.5931||INFO|Calculator.Controllers.MathematicalController|The control is succesfully 
+2019-10-29 11:32:40.6039|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Calculator.Controllers.MathematicalController.Subtract (Calculator), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2564.9197ms. 
+2019-10-29 11:32:40.6221|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Int32'. 
+2019-10-29 11:32:40.6468|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Subtract (Calculator) in 3135.7206ms 
+2019-10-29 11:32:40.6468|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Subtract (Calculator)' 
+2019-10-29 11:32:40.6468|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3205.4134ms 200 application/json; charset=utf-8 
+2019-10-29 11:38:49.1521|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 11:38:49.1521|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.4632ms 404  
+2019-10-29 11:54:42.9918|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 11:54:42.9918|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.0057ms 404  
+2019-10-29 12:14:01.4552||DEBUG|Calculator.Program|init main 
+2019-10-29 12:14:05.0521||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 12:14:06.7605|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 12:14:06.8892|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 129.6551ms 404  
+2019-10-29 12:43:47.7156||DEBUG|Calculator.Program|init main 
+2019-10-29 12:43:48.2926||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 12:43:48.6664|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 12:43:48.7420|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 75.8558ms 404  
+2019-10-29 12:43:54.1858|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/mathematical   
+2019-10-29 12:43:54.1858|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.5278ms 404  
+2019-10-29 12:44:04.4944|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/subtract application/json 32 
+2019-10-29 12:44:04.5031|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Subtract (Calculator)' 
+2019-10-29 12:44:04.5598|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Subtract", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Subtract(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 12:44:04.9856|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Calculator.Controllers.MathematicalController.Subtract (Calculator) - Validation state: Valid 
+2019-10-29 12:44:05.0000||INFO|Calculator.Controllers.MathematicalController|Requested to Subtract method by {"FirstNum":6,"SecondNum":4} parameters 
+2019-10-29 12:44:05.2372|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'CalculatorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-29 12:44:07.5669|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (28ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 12:44:07.5969|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 12:44:07.6190||INFO|Calculator.Controllers.MathematicalController|The control is succesfully 
+2019-10-29 12:44:07.6302|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Calculator.Controllers.MathematicalController.Subtract (Calculator), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2638.5615ms. 
+2019-10-29 12:44:07.6485|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Int32'. 
+2019-10-29 12:44:07.6734|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Subtract (Calculator) in 3107.8125ms 
+2019-10-29 12:44:07.6734|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Subtract (Calculator)' 
+2019-10-29 12:44:07.6734|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3189.0984ms 200 application/json; charset=utf-8 
+2019-10-29 12:44:13.1795|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 12:44:13.1795|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.4875ms 404  
+2019-10-29 12:45:22.0590||DEBUG|Calculator.Program|init main 
+2019-10-29 12:45:24.1700||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 12:45:25.4408|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 12:45:25.5567|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 117.8985ms 404  

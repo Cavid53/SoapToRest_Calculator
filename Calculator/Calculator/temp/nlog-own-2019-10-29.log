@@ -1,0 +1,18 @@
+2019-10-29 00:02:12.4674||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 00:03:49.2946||INFO|Calculator.Controllers.MathematicalController|Requested to Add method by {"FirstNum":5,"SecondNum":4} parameters |url: https://localhost/api/mathematical/add|action: Add
+2019-10-29 00:03:54.7377||INFO|Calculator.Controllers.MathematicalController|The control is succesfully |url: https://localhost/api/mathematical/add|action: Add
+2019-10-29 00:08:15.0427||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 00:21:47.4960||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 00:22:23.7138||INFO|Calculator.Controllers.MathematicalController|Requested to Subtract method by {"FirstNum":5,"SecondNum":4} parameters |url: https://localhost/api/mathematical/subtract|action: Subtract
+2019-10-29 00:22:26.6407||INFO|Calculator.Controllers.MathematicalController|The control is succesfully |url: https://localhost/api/mathematical/subtract|action: Subtract
+2019-10-29 00:24:53.9569||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 00:35:52.6520||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 00:38:09.2611||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 11:31:36.5178||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 11:32:38.0509||INFO|Calculator.Controllers.MathematicalController|Requested to Subtract method by {"FirstNum":6,"SecondNum":4} parameters |url: https://localhost/api/mathematical/subtract|action: Subtract
+2019-10-29 11:32:40.5931||INFO|Calculator.Controllers.MathematicalController|The control is succesfully |url: https://localhost/api/mathematical/subtract|action: Subtract
+2019-10-29 12:14:01.4552||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 12:43:47.7156||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-29 12:44:05.0000||INFO|Calculator.Controllers.MathematicalController|Requested to Subtract method by {"FirstNum":6,"SecondNum":4} parameters |url: https://localhost/api/mathematical/subtract|action: Subtract
+2019-10-29 12:44:07.6190||INFO|Calculator.Controllers.MathematicalController|The control is succesfully |url: https://localhost/api/mathematical/subtract|action: Subtract
+2019-10-29 12:45:22.0590||DEBUG|Calculator.Program|init main |url: |action: 

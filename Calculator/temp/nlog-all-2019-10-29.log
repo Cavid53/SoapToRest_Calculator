@@ -1,0 +1,34 @@
+2019-10-29 12:51:14.3151||DEBUG|Calculator.Program|init main 
+2019-10-29 12:51:14.8544||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Cavid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 12:51:15.1997|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 12:51:15.2604|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 61.5214ms 404  
+2019-10-29 12:51:30.0826|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/mathematical   
+2019-10-29 12:51:30.0826|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.9392ms 404  
+2019-10-29 12:51:41.9341|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44357/api/mathematical/add application/json 32 
+2019-10-29 12:51:41.9389|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 12:51:41.9919|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Add", controller = "Mathematical"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Calculator.Helpers.NumCalculator) on controller Calculator.Controllers.MathematicalController (Calculator). 
+2019-10-29 12:51:42.4086|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Calculator.Controllers.MathematicalController.Add (Calculator) - Validation state: Valid 
+2019-10-29 12:51:42.4086||INFO|Calculator.Controllers.MathematicalController|Requested to Add method by {"FirstNum":6,"SecondNum":4} parameters 
+2019-10-29 12:51:42.6690|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'CalculatorDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-10-29 12:51:44.7032|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 12:51:44.7340|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Reports] ([INSERT_DATE], [MethodId], [VALUE])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Reports]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity(); 
+2019-10-29 12:51:44.7549||INFO|Calculator.Controllers.MathematicalController|The control is succesfully 
+2019-10-29 12:51:44.7549|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Calculator.Controllers.MathematicalController.Add (Calculator), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2351.1997ms. 
+2019-10-29 12:51:44.7836|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Int32'. 
+2019-10-29 12:51:44.8081|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Calculator.Controllers.MathematicalController.Add (Calculator) in 2810.7911ms 
+2019-10-29 12:51:44.8081|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Calculator.Controllers.MathematicalController.Add (Calculator)' 
+2019-10-29 12:51:44.8189|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2884.9463ms 200 application/json; charset=utf-8 
+2019-10-29 12:51:48.3133|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44357/api/values   
+2019-10-29 12:51:48.3149|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.6482ms 404  

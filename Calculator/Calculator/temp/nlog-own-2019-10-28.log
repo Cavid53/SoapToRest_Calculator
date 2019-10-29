@@ -1,0 +1,5 @@
+2019-10-28 23:53:36.6470||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-28 23:55:30.7300||INFO|Calculator.Controllers.MathematicalController|Requested to Subtract method by {"FirstNum":5,"SecondNum":4} parameters |url: https://localhost/api/mathematical/subtract|action: Subtract
+2019-10-28 23:55:36.3393||INFO|Calculator.Controllers.MathematicalController|The control is succesfully |url: https://localhost/api/mathematical/subtract|action: Subtract
+2019-10-28 23:56:12.1630||DEBUG|Calculator.Program|init main |url: |action: 
+2019-10-28 23:59:56.3383||DEBUG|Calculator.Program|init main |url: |action: 
